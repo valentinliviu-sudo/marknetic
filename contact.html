@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Servicii de Copywriting și Content Writing</title>
+    <meta name="description" content="Contactează-mă pentru servicii profesionale de copywriting și content writing. Programează o consultație gratuită și discută despre proiectul tău.">
+    <meta name="keywords" content="contact copywriter, consultație copywriting, servicii content writing, copywriter România">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">CopyPro</a>
+            
+            <nav class="nav">
+                <button class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Acasă</a></li>
+                    <li class="nav-item"><a href="despre.html" class="nav-link">Despre Mine</a></li>
+                    <li class="nav-item"><a href="servicii.html" class="nav-link">Servicii</a></li>
+                    <li class="nav-item"><a href="resurse.html" class="nav-link">Resurse</a></li>
+                    <li class="nav-item"><a href="produse.html" class="nav-link">Produse Digitale</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hai să Discutăm Despre Proiectul Tău!</h1>
+                <p>Sunt aici pentru a te ajuta să-ți transformi comunicarea în rezultate concrete. Completează formularul de mai jos și voi reveni cu un răspuns în maxim 24 de ore.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <h2>Programează o Consultație Gratuită</h2>
+                    <p>Fiecare colaborare de succes începe cu o conversație. Oferă consultații gratuite de 30 de minute în care putem discuta despre:</p>
+                    
+                    <ul style="margin-bottom: var(--spacing-lg); padding-left: 20px;">
+                        <li>Obiectivele tale de business și provocările actuale</li>
+                        <li>Cum te pot ajuta serviciile mele să-ți atingi aceste obiective</li>
+                        <li>Răspunsuri la întrebările tale despre copywriting și content writing</li>
+                        <li>Recomandări personalizate pentru situația ta specifică</li>
+                    </ul>
+                    
+                    <div class="card" style="margin-bottom: var(--spacing-lg);">
+                        <h3>Informații de Contact</h3>
+                        <p><strong>Email:</strong> contact@copypro.ro</p>
+                        <p><strong>Program de lucru:</strong><br>Luni - Vineri: 9:00 - 17:00<br>Weekend: Disponibil doar pentru urgențe</p>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h3>Urmărește-mă pe Social Media</h3>
+                        <p>Conectează-te cu mine pe platformele sociale pentru sfaturi de copywriting, inspirație și actualizări:</p>
+                        
+                        <ul class="social-links" style="margin-top: var(--spacing-md);">
+                            <li class="social-link"><a href="#" style="font-size: 24px;"><i class="fab fa-linkedin"></i></a></li>
+                            <li class="social-link"><a href="#" style="font-size: 24px;"><i class="fab fa-facebook"></i></a></li>
+                            <li class="social-link"><a href="#" style="font-size: 24px;"><i class="fab fa-instagram"></i></a></li>
+                            <li class="social-link"><a href="#" style="font-size: 24px;"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-2">
+                    <div class="card">
+                        <h3>Formular de Contact</h3>
+                        <p>Completează formularul de mai jos și voi reveni cu un răspuns în maxim 24 de ore.</p>
+                        
+                        <form id="contactForm" class="mt-4">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nume</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Telefon (opțional)</label>
+                                <input type="tel" id="phone" class="form-control">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subiect</label>
+                                <input type="text" id="subject" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Cum te pot ajuta?</label>
+                                <textarea id="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="source" class="form-label">Cum ai aflat despre serviciile mele?</label>
+                                <select id="source" class="form-select">
+                                    <option value="">Selectează o opțiune</option>
+                                    <option value="google">Google</option>
+                                    <option value="social">Social Media</option>
+                                    <option value="referral">Recomandare</option>
+                                    <option value="other">Altă sursă</option>
+                                </select>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: var(--spacing-md);">Trimite Mesajul</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>Întrebări Frecvente</h2>
+                <p>Răspunsuri la cele mai comune întrebări despre colaborarea cu mine</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-2">
+                    <div class="faq-item mb-4">
+                        <h4>Cât durează un proiect tipic de copywriting?</h4>
+                        <p>Durata variază în funcție de complexitatea proiectului. Un website complet poate dura 3-4 săptămâni, în timp ce o campanie de email marketing poate fi gata în 1-2 săptămâni. Stabilim întotdeauna un timeline clar la începutul colaborării.</p>
+                    </div>
+                    
+                    <div class="faq-item mb-4">
+                        <h4>Lucrezi cu clienți din toate industriile?</h4>
+                        <p>Da, am experiență în diverse industrii, de la tehnologie și servicii profesionale până la e-commerce și educație. Adaptabilitatea și cercetarea amănunțită îmi permit să înțeleg rapid specificul oricărui domeniu.</p>
+                    </div>
+                </div>
+                
+                <div class="col-2">
+                    <div class="faq-item mb-4">
+                        <h4>Cum funcționează procesul de colaborare?</h4>
+                        <p>Procesul începe cu o consultație inițială pentru a înțelege nevoile tale. Apoi, îți voi trimite o propunere detaliată cu termene și costuri. După aprobarea propunerii, începem cu cercetarea și strategia, urmată de crearea conținutului, revizuiri și livrarea finală.</p>
+                    </div>
+                    
+                    <div class="faq-item mb-4">
+                        <h4>Oferă revizuiri și modificări?</h4>
+                        <p>Da, fiecare proiect include un număr specific de runde de revizuiri (de obicei 2-3), pentru a ne asigura că rezultatul final corespunde perfect așteptărilor tale.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+        <div class="container">
+            <div class="cta-section">
+                <h2>Pregătit să Începem?</h2>
+                <p>Fiecare proiect de succes începe cu o conversație. Contactează-mă astăzi și să discutăm despre cum pot transforma cuvintele în rezultate concrete pentru afacerea ta!</p>
+                <a href="#contactForm" class="btn btn-primary btn-lg">Trimite un Mesaj Acum</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h5 class="footer-title">CopyPro</h5>
+                    <p>Servicii profesionale de copywriting și content writing pentru antreprenori și profesioniști care vor să-și crească afacerile prin comunicare eficientă.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h5 class="footer-title">Linkuri Rapide</h5>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="index.html">Acasă</a></li>
+                        <li class="footer-link"><a href="despre.html">Despre Mine</a></li>
+                        <li class="footer-link"><a href="servicii.html">Servicii</a></li>
+                        <li class="footer-link"><a href="resurse.html">Resurse</a></li>
+                        <li class="footer-link"><a href="produse.html">Produse Digitale</a></li>
+                        <li class="footer-link"><a href="blog.html">Blog</a></li>
+                        <li class="footer-link"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h5 class="footer-title">Contact</h5>
+                    <p>Email: contact@copypro.ro</p>
+                    <p>Program: Luni - Vineri, 9:00 - 17:00</p>
+                    <ul class="social-links">
+                        <li class="social-link"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="social-link"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li class="social-link"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="social-link"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h5 class="footer-title">Newsletter</h5>
+                    <p>Abonează-te pentru sfaturi de copywriting și content marketing direct în inbox-ul tău.</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Adresa ta de email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Abonează-te</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 CopyPro. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
